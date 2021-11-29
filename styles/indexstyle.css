@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Raleway", sans-serif;
+}
+
+.choices {
+    margin: 100px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.arithbtn {
+    text-decoration: none;
+    padding: 5%;
+    margin: 30px;
+    color: black;
+
+
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.arithbtn:hover {
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+.addbtn:hover {
+    background-color: #0081a7;
+}
+
+.subbtn:hover {
+    background-color: #fb5607;
+}
+
+.multbtn:hover {
+    background-color: #8338ec;
+}
+
+.divbtn:hover {
+    background-color: #ff006e;
+} 
